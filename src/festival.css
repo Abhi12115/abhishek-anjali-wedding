@@ -1,0 +1,84 @@
+/* ABHISHEK & ANJALI — FESTIVE WEDDING THEME UPGRADE */
+:root{
+  --wine:#510d2b;--wine2:#76113c;--wine3:#a51f55;
+  --gold:#e0ad45;--gold2:#ffe1a0;--ivory:#fff8ef;--cream:#ffe8d6;
+  --ink:#3d2030;--muted:#86616d;
+}
+body{background:#fff7ef;color:var(--ink)}
+/* A light, non-interactive shower of petals across every section. */
+body:before,body:after{content:"";position:fixed;z-index:19;top:-18vh;left:0;width:9px;height:14px;border-radius:90% 0 90% 0;pointer-events:none;opacity:.76;background:#ef789b;box-shadow:8vw 19vh #f5b0a2,17vw 43vh #e9a0bc,27vw 11vh #f8c46e,36vw 58vh #ed86a5,47vw 27vh #f6b7a6,58vw 72vh #d96b91,68vw 14vh #f6c66f,78vw 48vh #ed9bb3,89vw 30vh #f4a28f,96vw 67vh #f8c46e,12vw 84vh #e88eaa,31vw 92vh #f6b7a6,52vw 88vh #e9a0bc,73vw 94vh #f5b0a2,91vw 87vh #f8c46e;animation:petal-rain 19s linear infinite}
+body:after{left:4vw;opacity:.55;transform:scale(.7);background:#f6c66f;box-shadow:13vw 34vh #e98eaa,25vw 65vh #f5b0a2,39vw 18vh #f8c46e,54vw 51vh #e98eaa,66vw 83vh #f5b0a2,81vw 22vh #f8c46e,94vw 55vh #e98eaa;animation:petal-rain 26s linear -11s infinite}
+@keyframes petal-rain{0%{transform:translate3d(0,-8vh,0) rotate(0)}50%{transform:translate3d(32px,55vh,0) rotate(220deg)}100%{transform:translate3d(-15px,118vh,0) rotate(520deg)}}
+.site-header{background:rgba(255,248,239,.94);border-bottom-color:#e8c6a8}
+.brand,.site-header nav a:hover{color:#8d1646}
+.brand span i{color:#d49a30}
+.music-toggle{border-color:#e6c58d;color:#811642}
+.hero{background:radial-gradient(ellipse at 50% 35%,#fff0c9 0,#f8c7bd 34%,#e99bb0 66%,#9e315d 100%)}
+.hero:before{border:2px solid rgba(255,235,185,.72);inset:18px;box-shadow:inset 0 0 55px #fff4d7aa,0 0 40px #8b174533}
+.hero:after{border:1px solid rgba(255,255,255,.7);inset:27px}
+.hero-pattern{opacity:.22;background-image:radial-gradient(circle at 1px 1px,#8d1646 1.2px,transparent 0);background-size:28px 28px}
+.hero h1{color:#681039;text-shadow:0 2px 0 #fff2d7,0 10px 30px #7e174022}
+.hero h1 i,.hero-date small{color:#c27b21}
+.hero-kicker,.hero-invite{color:#682d43}
+.hero-title,.hero-place,.hero-side-note{color:#8b2851}
+.hero-rule span,.hero-bottom-flower{color:#d68e25}
+.discover-btn{background:#74113d;border-color:#f2cb79;color:#fff2d5;box-shadow:0 8px 24px #6e123c33}
+.discover-btn:hover{background:#a51f55}
+.section-heading h2,.countdown-section h2,.rsvp-intro h2{color:#70113b}
+.section-heading h2 i,.countdown-section h2 i,.rsvp-intro h2 i{color:#c34d70}
+.story-section{background:linear-gradient(145deg,#fff8ee,#ffe9e1 54%,#f8d8df)}
+.story-card{background:linear-gradient(135deg,#fffdf7,#fff0e7);border:1px solid #edc7ad;box-shadow:0 20px 55px #8c28501c}
+.story-card:before{background:linear-gradient(90deg,#d88d32,#e9a2ae,#8e1747)}
+.story-card-top,.story-place{color:#a34b66}
+.story-copy h3{color:#75113d}
+.story-caption{color:#a14b60}
+.story-controls>button{border-color:#d9a7a0;color:#8d1746;background:#fff8f0}
+.story-dots button.active{background:#bd3b68}
+.story-endline{color:#8a4960}
+.announcement{background:radial-gradient(circle at 50% 0,#a92a59 0,#76113e 42%,#3d102a 100%);color:#fff3df}
+.announcement:before,.announcement:after{border-color:#f5c96a66}
+.announcement h2{color:#fff4df}
+.announcement h2 i{color:#ffd47e}
+.announcement .eyebrow{color:#ffd47e}
+.events-section{background:linear-gradient(145deg,#fff0df,#ffe2df 55%,#f7d5df)}
+.event-card{background:linear-gradient(155deg,#fffdf6,#fff0e8);border:1px solid #eac29f;box-shadow:0 14px 34px #6f17351a}
+.event-card:before{height:3px;background:linear-gradient(90deg,#d64c77,#f3bd57,#8b1648)}
+.event-card h3{color:#79113f}
+.event-topline,.event-date{color:#a64a68}
+.event-symbol{color:#d28b2e}
+.event-detail svg,.event-venue>svg{color:#c17a35}
+.text-link,.venue-link{color:#9b2451;border-color:#e3ad77}
+.calendar-btn{border-color:#e8c49c;color:#86204a;background:#fff8f0}
+.countdown-section{background:radial-gradient(ellipse at 50% 20%,#fff2d1,#f5c8c8 60%,#d98ca5)}
+.countdown-section:before,.countdown-section:after{color:#a42a58;opacity:.17}
+.count-unit{background:#fffaf1;border:1px solid #e6b86e;box-shadow:0 10px 24px #75113b17}
+.count-unit strong{color:#78113f}
+.count-unit span{color:#a64a68}
+.venue-section{background:#fff8ef}
+.venue-card{background:#fffdf7;border-color:#e9c9aa;box-shadow:0 12px 30px #7d234015}
+.venue-art{background:linear-gradient(145deg,#a92759,#4a102e)}
+.venue-art-two{background:linear-gradient(145deg,#d16c70,#64143d)}
+.venue-art,.venue-art small{color:#ffe0a0}
+.venue-info h3{color:#76113d}
+.gallery-section{background:linear-gradient(145deg,#ffe9df,#f9d9df)}
+.gallery-tile.rose{background:linear-gradient(145deg,#ef9b9e,#8f1d50)}
+.gallery-tile.gold{background:linear-gradient(145deg,#f1c76f,#a54b44)}
+.gallery-tile.blush{background:linear-gradient(145deg,#f3b5bb,#b53d69)}
+.gallery-tile.wine{background:linear-gradient(145deg,#9d2858,#3e102d)}
+.rsvp-section{background:linear-gradient(145deg,#fff8ef,#ffede5)}
+.rsvp-form{background:#fffdf8;border-color:#eac9ad;box-shadow:0 15px 45px #6c1b3615}
+.form-heading>span{color:#78113f}
+.field-label input:focus,.field-label textarea:focus,.guest-fields input:focus,.guest-fields select:focus{border-color:#c45b78;box-shadow:0 0 0 3px #c45b781c}
+.attendance-options input{accent-color:#a51f55}
+.submit-rsvp{background:linear-gradient(90deg,#681039,#a51f55);color:#fff1db}
+.submit-rsvp:hover{background:#b82d62}
+.site-footer{background:radial-gradient(circle at 50% 0,#9c2856,#641039 56%,#351027)}
+.site-footer h2 i,.footer-flower{color:#ffd47e}
+.floating-music{border-color:#e8bd6d;background:#fff4df;color:#811642}
+/* Give the existing illustrated story chapters a little more depth and movement. */
+.scene-visual{border:1px solid #f0c98f;box-shadow:inset 0 0 35px #fff4d622,0 12px 28px #57152b20}
+.scene-visual:after{content:"✦  ✧  ✦";position:absolute;top:12px;right:14px;color:#ffe1a0;font-size:13px;letter-spacing:5px;opacity:.8;pointer-events:none}
+.office-scene,.calendar-scene,.phone-scene,.birthday-scene,.cafe-scene,.confession-scene,.wedding-scene{animation:scene-arrive .7s ease both}
+@keyframes scene-arrive{from{opacity:.45;transform:translateY(9px) scale(.985)}to{opacity:1;transform:translateY(0) scale(1)}}
+@media(max-width:650px){.site-header nav{background:#fff7ef}.hero{background:radial-gradient(ellipse at 50% 32%,#fff0c9,#f3b6bc 57%,#a53a68)}.story-card{box-shadow:0 12px 30px #8c285018}}
+@media(prefers-reduced-motion:reduce){body:before,body:after{animation:none;opacity:.2}}
