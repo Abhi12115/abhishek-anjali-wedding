@@ -63,7 +63,7 @@ function StoryVisual({type}) {
   if(type==='birthday') return <div className="scene-visual birthday-scene"><div className="birthday-card"><span>🎂</span><strong>Happy Birthday!</strong><small>Hope you have a lovely day ✨</small><div className="message-heart">♥</div></div><div className="confetti">✦　✧　✦</div></div>
   if(type==='cafe') return <div className="scene-visual cafe-scene"><div className="cafe-window"><div className="window-glow"/><span>☕</span><i>♡</i></div><div className="cafe-table"/><div className="cafe-couple"><b>●</b><b>●</b></div><div className="cafe-caption">A table for two</div></div>
   if(type==='confession') return <div className="scene-visual confession-scene"><div className="moon"/><div className="heart-orbit">♡</div><div className="silhouette one">●<i/></div><div className="silhouette two">●<i/></div><div className="confession-caption">“I feel the same.”</div></div>
-  return <div className="scene-visual wedding-scene"><div className="scene-arch"/><div className="wedding-couple"><span>🤵🏻</span><span>👰🏻</span></div><div className="wedding-lamps">✦　✧　✦</div></div>
+  return <div className="scene-visual wedding-scene story-couple-scene"><img src={storyCouple} alt="A 3D animated portrait of Abhishek and Anjali together"/><div className="wedding-lamps">✦　✧　✦</div></div>
 }
 function App() {
   const inviteType = getInviteType()
