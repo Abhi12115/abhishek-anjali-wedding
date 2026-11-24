@@ -4,6 +4,7 @@ import { createClient } from '@supabase/supabase-js'
 import { ArrowDown, ArrowLeft, ArrowRight, CalendarDays, Check, ChevronDown, Clock3, Flower2, Heart, MapPin, Menu, Music2, Pause, Play, Send, Sparkles, Volume2, VolumeX, X } from 'lucide-react'
 import './styles.css'
 import './festival.css'
+import storyCouple from './story-couple.png'
 
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
 const supabaseKey = import.meta.env.VITE_SUPABASE_ANON_KEY
